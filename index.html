@@ -12,20 +12,20 @@
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.card{background:rgba(255,253,249,.96);border:1px solid var(--line);border-radius:20px;padding:16px;box-shadow:var(--shadow)}.card.full{grid-column:1/-1}h2{margin:0 0 12px;font-size:18px}h3{margin:14px 0 8px;font-size:15px}.muted{color:var(--muted);font-size:12px;line-height:1.55}
 .toolbar{display:flex;gap:8px;flex-wrap:wrap}.btn{border:0;border-radius:12px;padding:10px 13px;font-weight:900;background:var(--sage);color:#fff}.btn.alt{background:#ece7de;color:var(--ink);border:1px solid var(--line)}.btn.wine{background:var(--wine)}.btn.gold{background:var(--gold)}.file-label{display:inline-flex;align-items:center;gap:7px}.file-label input{display:none}
 textarea{width:100%;min-height:118px;margin-top:10px;padding:11px;border-radius:13px;border:1px solid var(--line);background:#fff;outline:none;resize:vertical}textarea:focus,input:focus,select:focus{border-color:#7d8f83;box-shadow:0 0 0 3px rgba(102,121,108,.13);outline:none}
-.status{margin-top:10px;padding:9px 11px;border-radius:12px;background:#f2eee7;font-size:12px;line-height:1.55;color:#56605a}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}label{font-size:12px;font-weight:900;color:#59625c}input[type="date"],select{width:100%;height:44px;margin-top:5px;padding:0 10px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink)}
+.status{margin-top:10px;padding:9px 11px;border-radius:12px;background:#f2eee7;font-size:12px;line-height:1.55;color:#56605a}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}label{font-size:12px;font-weight:900;color:#59625c}input[type="date"],input[type="time"],input[type="text"],select{width:100%;height:44px;margin-top:5px;padding:0 10px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink)}
 .weights{display:grid;gap:9px}.weight-row{display:grid;grid-template-columns:120px 1fr 48px;gap:8px;align-items:center}.weight-row span{font-size:12px;font-weight:800}.weight-row output{text-align:right;font-weight:900;font-size:12px}input[type="range"]{width:100%}
 .summary{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:12px}.stat{padding:11px;border-radius:14px;background:#f1eee7;border:1px solid var(--line)}.stat b{display:block;font-size:19px}.stat span{font-size:11px;color:var(--muted)}
 .pickbox{margin-top:12px;padding:16px;border-radius:18px;background:#eef3ef;border:1px solid #cfdbd2}.balls{display:flex;flex-wrap:wrap;gap:9px;margin-top:8px}.ball{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:#fff;border:2px solid var(--sage);font-size:19px;font-weight:1000;box-shadow:0 4px 10px rgba(45,55,48,.10)}.ball.order{border-color:var(--wine)}.arrow{color:#9b9488;font-weight:900}
 .rank-table{width:100%;border-collapse:collapse;margin-top:10px;font-size:12px}.rank-table th,.rank-table td{padding:8px 7px;border-bottom:1px solid #e7e2da;text-align:right}.rank-table th:first-child,.rank-table td:first-child,.rank-table th:nth-child(2),.rank-table td:nth-child(2){text-align:center}.rank-table th{background:#f8f5ef;color:#5d665f}.num-pill{display:inline-grid;place-items:center;min-width:30px;height:30px;padding:0 7px;border-radius:999px;background:#e8eee9;font-weight:1000}
 .grid9{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:10px}.cell{min-height:82px;border:1px solid var(--line);border-radius:13px;background:#faf8f4;padding:8px}.cell b{display:block;font-size:16px}.cell small{display:block;margin-top:4px;color:var(--muted);font-size:10px;line-height:1.4}.cell.hot{background:#e7eee8;border-color:#b7c7bb}
 .last3{display:grid;gap:7px;margin-top:10px}.drawrow{display:grid;grid-template-columns:92px 1fr;gap:7px;align-items:center;padding:8px;border-radius:12px;background:#f7f4ee}.drawnums{display:flex;gap:5px;flex-wrap:wrap}.sball{min-width:30px;height:30px;padding:0 6px;display:grid;place-items:center;border-radius:9px;background:#fff;border:1px solid var(--line);font-weight:900}
-.backtest{margin-top:10px;padding:12px;border-radius:14px;background:#f7f4ee;border:1px solid var(--line)}.bar{height:16px;border-radius:999px;overflow:hidden;background:#e6e1d8;margin-top:6px}.bar i{display:block;height:100%;background:var(--sage)}.details{font-size:11px;color:var(--muted);line-height:1.55;margin-top:8px}.footer{margin-top:18px;text-align:center;color:var(--muted);font-size:11px;line-height:1.7}.hidden{display:none!important}
-@media(max-width:760px){.grid{grid-template-columns:1fr}.card.full{grid-column:auto}.summary{grid-template-columns:1fr 1fr}.form-row{grid-template-columns:1fr}.weight-row{grid-template-columns:92px 1fr 42px}.rank-scroll{overflow:auto}.rank-table{min-width:720px}.drawrow{grid-template-columns:82px 1fr}}
+.personal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.switchline{display:flex;align-items:center;gap:9px;margin:12px 0;padding:10px 12px;border-radius:12px;background:#f4f0e9;border:1px solid var(--line);font-size:12px;font-weight:900}.switchline input{width:18px;height:18px}.ziwei-profile{margin-top:10px;padding:12px;border-radius:14px;background:#f2edf5;border:1px solid #ddd1e2;line-height:1.65;font-size:12px}.ziwei-tag{display:inline-block;margin:2px 5px 2px 0;padding:4px 7px;border-radius:999px;background:#e8dfee;color:#5f4a67;font-weight:900}.ball.ziwei{border-color:#80608b}.run-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}.run-actions .btn{width:100%;min-height:44px}.btn.ziwei-btn{background:#7c6288;color:#fff;box-shadow:0 5px 14px rgba(91,67,102,.18)}.reset-row{margin-top:8px}.ziwei-modal{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:14px;background:rgba(31,36,33,.66);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}.ziwei-modal.show{display:flex}.ziwei-panel{width:min(760px,100%);max-height:94vh;overflow:auto;border-radius:22px;background:var(--paper);box-shadow:0 26px 70px rgba(20,25,21,.38);border:1px solid rgba(255,255,255,.55)}.ziwei-panel-head{position:sticky;top:0;z-index:2;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:15px 16px 11px;background:rgba(255,253,249,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}.ziwei-panel-head h2{margin:0}.ziwei-close{border:0;border-radius:11px;background:#ece7de;color:var(--ink);padding:8px 11px;font-weight:900}.ziwei-panel-body{padding:14px 16px 18px}.ziwei-modal-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.ziwei-modal-actions .btn{width:100%}.backtest{margin-top:10px;padding:12px;border-radius:14px;background:#f7f4ee;border:1px solid var(--line)}.bar{height:16px;border-radius:999px;overflow:hidden;background:#e6e1d8;margin-top:6px}.bar i{display:block;height:100%;background:var(--sage)}.details{font-size:11px;color:var(--muted);line-height:1.55;margin-top:8px}.footer{margin-top:18px;text-align:center;color:var(--muted);font-size:11px;line-height:1.7}.hidden{display:none!important}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.personal-grid{grid-template-columns:1fr 1fr}.card.full{grid-column:auto}.summary{grid-template-columns:1fr 1fr}.form-row{grid-template-columns:1fr}.weight-row{grid-template-columns:92px 1fr 42px}.rank-scroll{overflow:auto}.rank-table{min-width:720px}.drawrow{grid-template-columns:82px 1fr}}@media(max-width:480px){.personal-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <div class="wrap">
-<section class="hero"><h1>今彩539｜1000期統計推演器</h1><p>以最近 1000 期資料，綜合「開獎日期條件、5球開出順序、近期趨勢、最近三期九宮格」建立統計分數，推演下一期候選號碼。</p></section>
+<section class="hero"><h1>今彩539｜1000期統計推演器</h1><p>以最近 1000 期資料，綜合「開獎日期條件、5球開出順序、近期趨勢、最近三期九宮格」，並可選擇加入個人紫微斗數命盤特徵作娛樂性加權，推演下一期候選號碼。</p></section>
 <div class="notice">本工具只能做歷史統計與回測，不能提高每顆獎球本身的隨機中獎機率，也不存在可保證的「最佳號碼」。結果中的「推薦」代表本模型分數較高，不代表必中。</div>
 <div class="grid">
 <section class="card">
@@ -59,8 +59,34 @@ textarea{width:100%;min-height:118px;margin-top:10px;padding:11px;border-radius:
 <div class="weight-row"><span>開出順序邏輯</span><input type="range" min="0" max="50" value="25" id="wOrder"><output id="oOrder">25</output></div>
 <div class="weight-row"><span>三期九宮格</span><input type="range" min="0" max="50" value="20" id="wGrid"><output id="oGrid">20</output></div>
 </div>
-<div class="toolbar" style="margin-top:14px"><button class="btn wine" id="runBtn" type="button">開始推演下一期</button><button class="btn alt" id="resetWeights" type="button">恢復預設權重</button></div>
+<div class="run-actions"><button class="btn wine" id="runBtn" type="button">開始推演下一期</button><button class="btn ziwei-btn" id="openZiweiBtn" type="button">紫微斗數命盤加權</button></div>
+<div class="reset-row"><button class="btn alt" id="resetWeights" type="button">恢復預設權重</button></div>
 </section>
+
+<div id="ziweiModal" class="ziwei-modal" role="dialog" aria-modal="true" aria-labelledby="ziweiModalTitle" aria-hidden="true">
+  <div class="ziwei-panel">
+    <div class="ziwei-panel-head">
+      <div><h2 id="ziweiModalTitle">紫微斗數命盤加權</h2><div class="muted" style="margin-top:3px">輸入個人資料後，可將命盤特徵作為額外個人化權重。</div></div>
+      <button class="ziwei-close" id="closeZiweiBtn" type="button" aria-label="關閉紫微斗數命盤設定">×</button>
+    </div>
+    <div class="ziwei-panel-body">
+      <div class="notice" style="margin-top:0">紫微斗數與彩券開獎之間沒有經科學驗證的因果或預測關係。本區僅把命宮、身宮、五行局等傳統命理特徵轉成可調式「個人化分數」，供娛樂性比較；請以歷史回測結果檢查它是否真的改善模型。</div>
+      <div class="personal-grid" style="margin-top:12px">
+        <label>姓名 / 代號（可選）<input id="pName" type="text" maxlength="30" placeholder="例如：Jeff"></label>
+        <label>國曆出生日期<input id="birthDate" type="date"></label>
+        <label>出生時間<input id="birthTime" type="time" value="12:00"></label>
+        <label>性別<select id="gender"><option value="">不指定</option><option value="M">男</option><option value="F">女</option></select></label>
+        <label>命宮主星（可選）<select id="mainStar"><option value="">不知道 / 不使用</option><option>紫微</option><option>天機</option><option>太陽</option><option>武曲</option><option>天同</option><option>廉貞</option><option>天府</option><option>太陰</option><option>貪狼</option><option>巨門</option><option>天相</option><option>天梁</option><option>七殺</option><option>破軍</option></select></label>
+        <label>出生地（備註，不參與計算）<input id="birthPlace" type="text" maxlength="40" placeholder="例如：台北"></label>
+      </div>
+      <label class="switchline"><input id="useZiwei" type="checkbox" checked>將紫微命盤個人化分數納入下一期綜合推演</label>
+      <div class="weights"><div class="weight-row"><span>命盤個人化權重</span><input type="range" min="0" max="30" value="8" id="wZiwei"><output id="oZiwei">8</output></div></div>
+      <div class="toolbar" style="margin-top:10px"><button class="btn alt" id="calcZiweiBtn" type="button">計算命盤特徵</button><button class="btn alt" id="savePersonalBtn" type="button">儲存個人設定於本機</button><button class="btn alt" id="clearPersonalBtn" type="button">清除個人設定</button></div>
+      <div id="ziweiProfile" class="ziwei-profile">請輸入出生日期與時間，再按「計算命盤特徵」。</div>
+      <div class="ziwei-modal-actions"><button class="btn ziwei-btn" id="applyZiweiBtn" type="button">套用並關閉</button><button class="btn alt" id="cancelZiweiBtn" type="button">關閉</button></div>
+    </div>
+  </div>
+</div>
 
 <section class="card full">
 <h2>③ 推演結果</h2>
@@ -69,8 +95,9 @@ textarea{width:100%;min-height:118px;margin-top:10px;padding:11px;border-radius:
 <div class="summary"><div class="stat"><b id="usedCount">0</b><span>本次使用期數</span></div><div class="stat"><b id="dateText">--</b><span>目標開獎日期</span></div><div class="stat"><b id="weekdayText">--</b><span>日期條件</span></div><div class="stat"><b id="weightSum">100</b><span>權重總和</span></div></div>
 <div class="pickbox"><b>綜合分數 Top 5（一般選號顯示）</b><div id="topBalls" class="balls"></div><div class="details">1～39 各自計分後取前五名；畫面以號碼大小排序。</div></div>
 <div class="pickbox"><b>預估「開出順序」5球</b><div id="orderBalls" class="balls"></div><div class="details">每一球位置分別使用「該位置歷史頻率＋前一期到下一期的同位置轉移＋九宮格位置趨勢」評分，並避免五球重複。</div></div>
+<div class="pickbox" id="ziweiResultBox"><b>紫微命盤個人化候選 Top 5</b><div id="ziweiBalls" class="balls"></div><div id="ziweiCompare" class="details">輸入個人資料後會顯示命盤分數較高的候選號碼，以及加入命盤前後的 Top 5 變化。</div></div>
 <div class="grid" style="margin-top:14px">
-<div><h3>候選號碼排名</h3><div class="rank-scroll"><table class="rank-table"><thead><tr><th>名次</th><th>號碼</th><th>總分</th><th>總體</th><th>近期</th><th>日期</th><th>順序</th><th>九宮格</th></tr></thead><tbody id="rankBody"></tbody></table></div></div>
+<div><h3>候選號碼排名</h3><div class="rank-scroll"><table class="rank-table"><thead><tr><th>名次</th><th>號碼</th><th>總分</th><th>總體</th><th>近期</th><th>日期</th><th>順序</th><th>九宮格</th><th>命盤</th></tr></thead><tbody id="rankBody"></tbody></table></div></div>
 <div><h3>最近三期開出順序</h3><div id="last3" class="last3"></div><h3>九宮格熱度（號碼以 mod 9 映射）</h3><div id="grid9" class="grid9"></div></div>
 </div>
 </div>
@@ -151,8 +178,8 @@ $('#pasteBtn').onclick=()=>{const d=parseText($('#pasteData').value);if(!d.lengt
 $('#clearBtn').onclick=()=>{if(confirm('確定移除另外匯入的資料，恢復 HTML 內建的 2023～2026 資料？')){state.draws=EMBEDDED_DRAWS.map(d=>({date:d.date,nums:[...d.nums],issue:d.issue||''}));try{localStorage.removeItem('539_analyzer_draws_v1')}catch(e){}renderStatus();setDefaultTargetFromLatest();$('#resultBody').classList.add('hidden');$('#emptyResult').classList.remove('hidden')}};
 $('#officialBtn').onclick=()=>window.open('https://www.taiwanlottery.com/lotto/history/result_download/','_blank','noopener');
 $('#exportBtn').onclick=()=>{if(!state.draws.length)return alert('目前沒有資料可匯出。');const rows=['開獎日期,獎號1,獎號2,獎號3,獎號4,獎號5',...state.draws.map(d=>[d.date,...d.nums.map(pad2)].join(','))],blob=new Blob(['\uFEFF'+rows.join('\n')],{type:'text/csv;charset=utf-8'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='今彩539_歷史資料.csv';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500)};
-['Freq','Recent','Date','Order','Grid'].forEach(k=>{$('#w'+k).oninput=()=>$('#o'+k).value=$('#w'+k).value});
-$('#resetWeights').onclick=()=>{const v={Freq:20,Recent:20,Date:15,Order:25,Grid:20};Object.keys(v).forEach(k=>{$('#w'+k).value=v[k];$('#o'+k).value=v[k]})};
+['Freq','Recent','Date','Order','Grid','Ziwei'].forEach(k=>{$('#w'+k).oninput=()=>$('#o'+k).value=$('#w'+k).value});
+$('#resetWeights').onclick=()=>{const v={Freq:20,Recent:20,Date:15,Order:25,Grid:20,Ziwei:8};Object.keys(v).forEach(k=>{$('#w'+k).value=v[k];$('#o'+k).value=v[k]})};
 function norm(a){const mi=Math.min(...a),ma=Math.max(...a);return ma===mi?a.map(()=>.5):a.map(x=>(x-mi)/(ma-mi))}
 const cellOf=n=>((n-1)%9)+1;
 function parseISO(s){const [y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d)}
@@ -162,14 +189,109 @@ function recentFeature(ds){const c=Array(39).fill(0),N=ds.length,hl=Math.max(20,
 function dateFeature(ds,target){const td=parseISO(target),wd=td.getDay(),mo=td.getMonth(),bk=Math.floor((td.getDate()-1)/10),raw=Array(39).fill(0);let dw=0,dm=0,db=0;ds.forEach(x=>{const d=parseISO(x.date);if(d.getDay()===wd)dw++;if(d.getMonth()===mo)dm++;if(Math.floor((d.getDate()-1)/10)===bk)db++});ds.forEach(x=>{const d=parseISO(x.date);if(d.getDay()===wd)x.nums.forEach(n=>raw[n-1]+=.55/Math.max(1,dw));if(d.getMonth()===mo)x.nums.forEach(n=>raw[n-1]+=.25/Math.max(1,dm));if(Math.floor((d.getDate()-1)/10)===bk)x.nums.forEach(n=>raw[n-1]+=.20/Math.max(1,db))});return norm(raw)}
 function orderFeature(ds){const N=ds.length,pos=Array.from({length:5},()=>Array(39).fill(0)),tr=Array.from({length:5},()=>Array.from({length:39},()=>Array(39).fill(0)));for(let i=0;i<N;i++){const w=Math.pow(.5,(N-1-i)/180);for(let p=0;p<5;p++)pos[p][ds[i].nums[p]-1]+=w;if(i)for(let p=0;p<5;p++)tr[p][ds[i-1].nums[p]-1][ds[i].nums[p]-1]+=w}const last=ds[N-1].nums,per=Array.from({length:5},()=>Array(39).fill(0));for(let p=0;p<5;p++){const a=norm(pos[p]),t=norm(tr[p][last[p]-1]);for(let n=0;n<39;n++)per[p][n]=.55*a[n]+.45*t[n]}return {per,overall:Array.from({length:39},(_,n)=>Math.max(...per.map(x=>x[n])))}}
 function gridFeature(ds){const last3=ds.slice(-3),heat=Array(9).fill(0);last3.forEach((d,i)=>{const w=[.65,.82,1][i+3-last3.length]||1;d.nums.forEach(n=>heat[cellOf(n)-1]+=w)});const hot=norm(heat),per=Array.from({length:5},()=>Array(39).fill(0));if(last3.length>=2)for(let p=0;p<5;p++){const c=last3.map(d=>cellOf(d.nums[p])-1),last=c.at(-1),prev=c.at(-2);let delta=(last-prev+9)%9,pred=(last+delta)%9,strong=false;if(c.length===3){const d1=(c[1]-c[0]+9)%9,d2=(c[2]-c[1]+9)%9;if(d1===d2){pred=(c[2]+d2)%9;strong=true}}for(let n=1;n<=39;n++){const x=cellOf(n)-1,dist=Math.min((x-pred+9)%9,(pred-x+9)%9),trend=x===pred?(strong?1:.85):dist===1?.42:0;per[p][n-1]=.62*trend+.38*hot[x]}}else for(let p=0;p<5;p++)for(let n=1;n<=39;n++)per[p][n-1]=hot[cellOf(n)-1]||.5;return {per,overall:Array.from({length:39},(_,n)=>Math.max(...per.map(x=>x[n]))),heat}}
-function model(ds,target,w){const f=freqFeature(ds),r=recentFeature(ds),d=dateFeature(ds,target),o=orderFeature(ds),g=gridFeature(ds),sum=w.freq+w.recent+w.date+w.order+w.grid||1,s=[];for(let n=1;n<=39;n++){const p={freq:f[n-1],recent:r[n-1],date:d[n-1],order:o.overall[n-1],grid:g.overall[n-1]},total=(p.freq*w.freq+p.recent*w.recent+p.date*w.date+p.order*w.order+p.grid*w.grid)/sum;s.push({n,total,parts:p})}s.sort((a,b)=>b.total-a.total||a.n-b.n);const used=new Set(),ord=[];for(let p=0;p<5;p++){let best;for(let n=1;n<=39;n++){if(used.has(n))continue;const base=s.find(x=>x.n===n),ps=.58*o.per[p][n-1]+.42*g.per[p][n-1],z=.5*base.total+.5*ps;if(!best||z>best.score)best={n,score:z}}used.add(best.n);ord.push(best.n)}return {scores:s,top5:s.slice(0,5).map(x=>x.n),orderPicks:ord,grid:g}}
-function weights(){return {freq:+$('#wFreq').value,recent:+$('#wRecent').value,date:+$('#wDate').value,order:+$('#wOrder').value,grid:+$('#wGrid').value}}
+
+const ZW_BRANCHES=['子','丑','寅','卯','辰','巳','午','未','申','酉','戌','亥'];
+const ZW_STEMS=['甲','乙','丙','丁','戊','己','庚','辛','壬','癸'];
+const ZW_MONTHS={'正月':1,'一月':1,'二月':2,'三月':3,'四月':4,'五月':5,'六月':6,'七月':7,'八月':8,'九月':9,'十月':10,'冬月':11,'十一月':11,'臘月':12,'腊月':12,'十二月':12};
+const NAYIN_ELEMS=['金','火','木','土','金','火','水','土','金','木','水','土','火','木','水','金','火','木','土','金','火','水','土','金','木','水','土','火','木','水'];
+const BUREAU_NO={'水':2,'木':3,'金':4,'土':5,'火':6};
+const NUM_ELEMENT=n=>({1:'水',6:'水',2:'火',7:'火',3:'木',8:'木',4:'金',9:'金',0:'土',5:'土'})[n%10];
+function mod(a,b){return ((a%b)+b)%b}
+function hourBranchIndex(t){if(!t)return 6;const h=Number(t.split(':')[0]);return Math.floor(((h+1)%24)/2)}
+function lunarParts(dateStr){
+  try{
+    const d=parseISO(dateStr),parts=new Intl.DateTimeFormat('zh-TW-u-ca-chinese',{year:'numeric',month:'numeric',day:'numeric'}).formatToParts(d),obj={};
+    parts.forEach(p=>obj[p.type]=p.value);
+    const monthText=String(obj.month||'').replace('閏','').replace('闰','');
+    return {year:+obj.relatedYear||d.getFullYear(),month:ZW_MONTHS[monthText]||+monthText||d.getMonth()+1,day:+obj.day||d.getDate(),leap:/閏|闰/.test(String(obj.month||'')),monthText:obj.month||''};
+  }catch(e){const d=parseISO(dateStr);return {year:d.getFullYear(),month:d.getMonth()+1,day:d.getDate(),leap:false,monthText:''}}
+}
+function sexagenaryIndex(stem,branch){for(let i=0;i<60;i++)if(i%10===stem&&i%12===branch)return i;return 0}
+function elementAffinity(a,b){if(a===b)return 1;const gen={木:'火',火:'土',土:'金',金:'水',水:'木'};if(gen[a]===b)return .78;if(gen[b]===a)return .66;return .28}
+function starSeed(star){let h=0;for(const c of String(star||''))h=(h*131+c.charCodeAt(0))>>>0;return h}
+function getPersonalProfile(silent=false){
+  const date=$('#birthDate').value,time=$('#birthTime').value||'12:00';
+  if(!date){if(!silent)$('#ziweiProfile').textContent='請先輸入國曆出生日期。';return null}
+  const lunar=lunarParts(date),hourIdx=hourBranchIndex(time),yearStem=mod(lunar.year-4,10),yearBranch=mod(lunar.year-4,12);
+  const ming=mod(2+(lunar.month-1)-hourIdx,12),shen=mod(2+(lunar.month-1)+hourIdx,12);
+  const tigerStart=mod(2+2*(yearStem%5),10),palaceStem=mod(tigerStart+mod(ming-2,12),10),sx=sexagenaryIndex(palaceStem,ming),elem=NAYIN_ELEMS[Math.floor(sx/2)]||'土';
+  const p={name:$('#pName').value.trim(),date,time,gender:$('#gender').value,star:$('#mainStar').value,place:$('#birthPlace').value.trim(),lunar,hourIdx,yearStem,yearBranch,ming,shen,palaceStem,element:elem,bureau:BUREAU_NO[elem]||5,enabled:$('#useZiwei').checked};
+  if(!silent){
+    const lunarTxt=`農曆${lunar.leap?'閏':''}${lunar.month}月${lunar.day}日`;
+    $('#ziweiProfile').innerHTML=`${p.name?`<span class="ziwei-tag">${p.name}</span>`:''}<span class="ziwei-tag">${lunarTxt}</span><span class="ziwei-tag">${ZW_STEMS[yearStem]}${ZW_BRANCHES[yearBranch]}年</span><span class="ziwei-tag">${ZW_BRANCHES[hourIdx]}時</span><span class="ziwei-tag">命宮：${ZW_STEMS[palaceStem]}${ZW_BRANCHES[ming]}</span><span class="ziwei-tag">身宮：${ZW_BRANCHES[shen]}</span><span class="ziwei-tag">${elem}${p.bureau}局</span>${p.star?`<span class="ziwei-tag">命宮主星：${p.star}</span>`:''}<div class="details">此處計算的是可透明重現的基礎命盤特徵；「命宮主星」若已知可手動選入。它不代表紫微斗數能預測隨機開獎。</div>`;
+  }
+  return p;
+}
+function ziweiFeature(profile,target){
+  if(!profile)return {scores:Array(39).fill(.5),top5:[],detail:''};
+  const t=parseISO(target),tp=lunarParts(target),targetSeed=(t.getFullYear()*372+(t.getMonth()+1)*31+t.getDate())>>>0,star=starSeed(profile.star),raw=[];
+  const triads=[[0,4,8],[1,5,9],[2,6,10],[3,7,11]];
+  const mingTriad=triads.find(g=>g.includes(profile.ming))||[];
+  for(let n=1;n<=39;n++){
+    const nb=mod(n-1,12),ne=NUM_ELEMENT(n),aff=elementAffinity(profile.element,ne);
+    let branch=nb===profile.ming?1:nb===profile.shen?.88:mingTriad.includes(nb)?.66:.25;
+    const lunarKeys=[profile.lunar.day,profile.lunar.month+profile.lunar.day,profile.bureau*profile.lunar.month,profile.hourIdx+1].map(x=>mod(x-1,39)+1);
+    const lunarRes=lunarKeys.includes(n)?1:lunarKeys.some(x=>Math.abs(x-n)<=1)?.68:.30;
+    const dayKeys=[tp.day,tp.month+tp.day,(t.getDay()+1)*profile.bureau].map(x=>mod(x-1,39)+1);
+    const dateRes=dayKeys.includes(n)?.9:dayKeys.some(x=>Math.abs(x-n)<=1)?.62:.32;
+    const starFav=profile.star?(((star+n*97+targetSeed)%39)<7?.82:.38):.5;
+    raw.push(.34*aff+.26*branch+.18*lunarRes+.12*dateRes+.10*starFav);
+  }
+  const scores=norm(raw),top5=scores.map((v,i)=>({n:i+1,v})).sort((a,b)=>b.v-a.v||a.n-b.n).slice(0,5).map(x=>x.n);
+  return {scores,top5,detail:`命宮${ZW_BRANCHES[profile.ming]}、身宮${ZW_BRANCHES[profile.shen]}、${profile.element}${profile.bureau}局`};
+}
+$('#calcZiweiBtn').onclick=()=>{getPersonalProfile(false);if(!$('#resultBody').classList.contains('hidden'))run()};
+$('#wZiwei').oninput=()=>$('#oZiwei').value=$('#wZiwei').value;
+$('#savePersonalBtn').onclick=()=>{const p={pName:$('#pName').value,birthDate:$('#birthDate').value,birthTime:$('#birthTime').value,gender:$('#gender').value,mainStar:$('#mainStar').value,birthPlace:$('#birthPlace').value,useZiwei:$('#useZiwei').checked,wZiwei:$('#wZiwei').value};localStorage.setItem('539_personal_ziwei_v1',JSON.stringify(p));updateZiweiButtonState();alert('個人設定已儲存在這台裝置的瀏覽器內。')};
+$('#clearPersonalBtn').onclick=()=>{localStorage.removeItem('539_personal_ziwei_v1');['pName','birthDate','birthPlace'].forEach(id=>$('#'+id).value='');$('#birthTime').value='12:00';$('#gender').value='';$('#mainStar').value='';$('#useZiwei').checked=true;$('#wZiwei').value=8;$('#oZiwei').value=8;$('#ziweiProfile').textContent='請輸入出生日期與時間，再按「計算命盤特徵」。';updateZiweiButtonState()};
+
+function openZiweiModal(){
+  const m=$('#ziweiModal');
+  m.classList.add('show');m.setAttribute('aria-hidden','false');
+  document.body.style.overflow='hidden';
+  setTimeout(()=>$('#birthDate').focus({preventScroll:true}),30);
+}
+function closeZiweiModal(){
+  const m=$('#ziweiModal');
+  m.classList.remove('show');m.setAttribute('aria-hidden','true');
+  document.body.style.overflow='';
+}
+$('#openZiweiBtn').onclick=openZiweiModal;
+$('#closeZiweiBtn').onclick=closeZiweiModal;
+$('#cancelZiweiBtn').onclick=closeZiweiModal;
+$('#applyZiweiBtn').onclick=()=>{
+  const p=getPersonalProfile(true);
+  if($('#useZiwei').checked && !p){alert('若要啟用紫微斗數命盤加權，請先輸入出生日期與出生時間。');return;}
+  if(p) renderZiweiProfile(p);
+  closeZiweiModal();
+};
+$('#ziweiModal').addEventListener('click',e=>{if(e.target===$('#ziweiModal'))closeZiweiModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#ziweiModal').classList.contains('show'))closeZiweiModal()});
+function loadPersonal(){try{const p=JSON.parse(localStorage.getItem('539_personal_ziwei_v1')||'null');if(!p)return;['pName','birthDate','birthTime','gender','mainStar','birthPlace'].forEach(id=>{if(p[id]!=null)$('#'+id).value=p[id]});if(p.useZiwei!=null)$('#useZiwei').checked=!!p.useZiwei;if(p.wZiwei!=null){$('#wZiwei').value=p.wZiwei;$('#oZiwei').value=p.wZiwei}getPersonalProfile(false)}catch(e){}}
+
+function model(ds,target,w,profile){const f=freqFeature(ds),r=recentFeature(ds),d=dateFeature(ds,target),o=orderFeature(ds),g=gridFeature(ds),z=ziweiFeature(profile,target),zw=(profile&&profile.enabled)?w.ziwei:0,baseSum=w.freq+w.recent+w.date+w.order+w.grid||1,sum=baseSum+zw||1,s=[],base=[];for(let n=1;n<=39;n++){const p={freq:f[n-1],recent:r[n-1],date:d[n-1],order:o.overall[n-1],grid:g.overall[n-1],ziwei:z.scores[n-1]},baseTotal=(p.freq*w.freq+p.recent*w.recent+p.date*w.date+p.order*w.order+p.grid*w.grid)/baseSum,total=(baseTotal*baseSum+p.ziwei*zw)/sum;base.push({n,total:baseTotal});s.push({n,total,parts:p})}base.sort((a,b)=>b.total-a.total||a.n-b.n);s.sort((a,b)=>b.total-a.total||a.n-b.n);const used=new Set(),ord=[];for(let p=0;p<5;p++){let best;for(let n=1;n<=39;n++){if(used.has(n))continue;const bs=s.find(x=>x.n===n),ps=.58*o.per[p][n-1]+.42*g.per[p][n-1],zz=.5*bs.total+.5*ps;if(!best||zz>best.score)best={n,score:zz}}used.add(best.n);ord.push(best.n)}return {scores:s,top5:s.slice(0,5).map(x=>x.n),baseTop5:base.slice(0,5).map(x=>x.n),orderPicks:ord,grid:g,ziwei:z}}
+function weights(){return {freq:+$('#wFreq').value,recent:+$('#wRecent').value,date:+$('#wDate').value,order:+$('#wOrder').value,grid:+$('#wGrid').value,ziwei:+$('#wZiwei').value}}
 const pct=x=>(x*100).toFixed(1);
-function run(){const ds=state.draws.slice(-+$('#sampleSize').value),target=$('#targetDate').value;if(ds.length<30)return alert('資料太少，至少需要 30 期；建議匯入 300～1000 期。');if(!target)return alert('請輸入下一期開獎日期。');const w=weights(),res=model(ds,target,w);$('#emptyResult').classList.add('hidden');$('#resultBody').classList.remove('hidden');$('#usedCount').textContent=ds.length;$('#dateText').textContent=target.replaceAll('-','/');$('#weekdayText').textContent=wdName(parseISO(target));$('#weightSum').textContent=Object.values(w).reduce((a,b)=>a+b,0);$('#topBalls').innerHTML=[...res.top5].sort((a,b)=>a-b).map(n=>`<span class="ball">${pad2(n)}</span>`).join('');$('#orderBalls').innerHTML=res.orderPicks.map((n,i)=>`<span class="ball order" title="第${i+1}球">${pad2(n)}</span>${i<4?'<span class="arrow">→</span>':''}`).join('');$('#rankBody').innerHTML=res.scores.slice(0,15).map((s,i)=>`<tr><td>${i+1}</td><td><span class="num-pill">${pad2(s.n)}</span></td><td><b>${pct(s.total)}</b></td><td>${pct(s.parts.freq)}</td><td>${pct(s.parts.recent)}</td><td>${pct(s.parts.date)}</td><td>${pct(s.parts.order)}</td><td>${pct(s.parts.grid)}</td></tr>`).join('');$('#last3').innerHTML=ds.slice(-3).map(d=>`<div class="drawrow"><b>${d.date.slice(5).replace('-','/')}</b><div class="drawnums">${d.nums.map((n,i)=>`<span class="sball" title="第${i+1}球">${pad2(n)}</span>`).join('')}</div></div>`).join('');const h=res.grid.heat,m=Math.max(...h,1);$('#grid9').innerHTML=Array.from({length:9},(_,i)=>{const ns=[];for(let n=1;n<=39;n++)if(cellOf(n)===i+1)ns.push(pad2(n));return `<div class="cell ${h[i]>=m*.72?'hot':''}"><b>格 ${i+1}</b><small>近3期加權熱度 ${h[i].toFixed(2)}</small><small>${ns.join('、')}</small></div>`}).join('')}
+
+function updateZiweiButtonState(){
+  const btn=$('#openZiweiBtn');
+  if(!btn)return;
+  const hasBirth=!!$('#birthDate').value;
+  const on=$('#useZiwei').checked && +$('#wZiwei').value>0 && hasBirth;
+  btn.textContent=on?'紫微斗數命盤加權 ✓':'紫微斗數命盤加權';
+  btn.title=on?'已設定並啟用命盤加權':'點擊輸入紫微斗數命盤加權資料';
+}
+$('#useZiwei').addEventListener('change',updateZiweiButtonState);
+$('#wZiwei').addEventListener('input',updateZiweiButtonState);
+$('#birthDate').addEventListener('change',updateZiweiButtonState);
+setTimeout(updateZiweiButtonState,0);
+
+function run(){const ds=state.draws.slice(-+$('#sampleSize').value),target=$('#targetDate').value;if(ds.length<30)return alert('資料太少，至少需要 30 期；建議匯入 300～1000 期。');if(!target)return alert('請輸入下一期開獎日期。');const w=weights(),profile=getPersonalProfile(true),res=model(ds,target,w,profile),zwOn=!!(profile&&profile.enabled&&w.ziwei>0);$('#emptyResult').classList.add('hidden');$('#resultBody').classList.remove('hidden');$('#usedCount').textContent=ds.length;$('#dateText').textContent=target.replaceAll('-','/');$('#weekdayText').textContent=wdName(parseISO(target));$('#weightSum').textContent=w.freq+w.recent+w.date+w.order+w.grid+(zwOn?w.ziwei:0);$('#topBalls').innerHTML=[...res.top5].sort((a,b)=>a-b).map(n=>`<span class="ball">${pad2(n)}</span>`).join('');$('#orderBalls').innerHTML=res.orderPicks.map((n,i)=>`<span class="ball order" title="第${i+1}球">${pad2(n)}</span>${i<4?'<span class="arrow">→</span>':''}`).join('');$('#ziweiBalls').innerHTML=profile?res.ziwei.top5.map(n=>`<span class="ball ziwei">${pad2(n)}</span>`).join(''):'<span class="muted">尚未輸入出生資料</span>';const before=[...res.baseTop5].sort((a,b)=>a-b).map(pad2).join('、'),after=[...res.top5].sort((a,b)=>a-b).map(pad2).join('、');$('#ziweiCompare').innerHTML=profile?`${res.ziwei.detail}｜純命盤特徵候選：${res.ziwei.top5.map(pad2).join('、')}<br>未加入命盤：${before}<br>${zwOn?'加入命盤後':'目前未啟用命盤加權'}：${after}`:'輸入出生日期與時間後才會計算命盤個人化候選。';$('#rankBody').innerHTML=res.scores.slice(0,15).map((x,i)=>`<tr><td>${i+1}</td><td><span class="num-pill">${pad2(x.n)}</span></td><td><b>${pct(x.total)}</b></td><td>${pct(x.parts.freq)}</td><td>${pct(x.parts.recent)}</td><td>${pct(x.parts.date)}</td><td>${pct(x.parts.order)}</td><td>${pct(x.parts.grid)}</td><td>${profile?pct(x.parts.ziwei):'—'}</td></tr>`).join('');$('#last3').innerHTML=ds.slice(-3).map(d=>`<div class="drawrow"><b>${d.date.slice(5).replace('-','/')}</b><div class="drawnums">${d.nums.map((n,i)=>`<span class="sball" title="第${i+1}球">${pad2(n)}</span>`).join('')}</div></div>`).join('');const h=res.grid.heat,m=Math.max(...h,1);$('#grid9').innerHTML=Array.from({length:9},(_,i)=>{const ns=[];for(let n=1;n<=39;n++)if(cellOf(n)===i+1)ns.push(pad2(n));return `<div class="cell ${h[i]>=m*.72?'hot':''}"><b>格 ${i+1}</b><small>近3期加權熱度 ${h[i].toFixed(2)}</small><small>${ns.join('、')}</small></div>`}).join('')}
 $('#runBtn').onclick=run;
 function hits(a,b){const s=new Set(b);return a.filter(x=>s.has(x)).length}
-$('#backtestBtn').onclick=async()=>{if(state.draws.length<80)return alert('回測至少建議 80 期以上資料。');const n=Math.min(+$('#backtestN').value,state.draws.length-30),w=weights(),r=[];$('#backtestResult').textContent='回測計算中…';await new Promise(x=>setTimeout(x,30));for(let i=state.draws.length-n;i<state.draws.length;i++){const hist=state.draws.slice(Math.max(0,i-+$('#sampleSize').value),i);if(hist.length<30)continue;r.push(hits(model(hist,state.draws[i].date,w).top5,state.draws[i].nums))}const dist=[0,0,0,0,0,0];r.forEach(x=>dist[x]++);const avg=r.reduce((a,b)=>a+b,0)/r.length,one=r.filter(x=>x>=1).length/r.length,two=r.filter(x=>x>=2).length/r.length;$('#backtestResult').innerHTML=`<b>完成 ${r.length} 期回測</b><br>平均每期 Top 5 命中：<b>${avg.toFixed(3)} 個</b>｜至少中 1 個：<b>${(one*100).toFixed(1)}%</b>｜至少中 2 個：<b>${(two*100).toFixed(1)}%</b><div class="details">命中分布：${dist.map((v,i)=>`${i}個 ${v}期`).join('｜')}</div><div class="bar"><i style="width:${Math.min(100,avg/5*100)}%"></i></div><div class="details">參考：從 39 號中固定任取 5 號，與當期 5 個獎號的期望交集為 25/39 ≈ 0.641 個。若長期回測沒有明顯高於此基準，不應把模型分數解讀成具預測力。</div>`};
+$('#backtestBtn').onclick=async()=>{if(state.draws.length<80)return alert('回測至少建議 80 期以上資料。');const n=Math.min(+$('#backtestN').value,state.draws.length-30),w=weights(),r=[];$('#backtestResult').textContent='回測計算中…';await new Promise(x=>setTimeout(x,30));for(let i=state.draws.length-n;i<state.draws.length;i++){const hist=state.draws.slice(Math.max(0,i-+$('#sampleSize').value),i);if(hist.length<30)continue;r.push(hits(model(hist,state.draws[i].date,w,getPersonalProfile(true)).top5,state.draws[i].nums))}const dist=[0,0,0,0,0,0];r.forEach(x=>dist[x]++);const avg=r.reduce((a,b)=>a+b,0)/r.length,one=r.filter(x=>x>=1).length/r.length,two=r.filter(x=>x>=2).length/r.length;$('#backtestResult').innerHTML=`<b>完成 ${r.length} 期回測</b><br>平均每期 Top 5 命中：<b>${avg.toFixed(3)} 個</b>｜至少中 1 個：<b>${(one*100).toFixed(1)}%</b>｜至少中 2 個：<b>${(two*100).toFixed(1)}%</b><div class="details">命中分布：${dist.map((v,i)=>`${i}個 ${v}期`).join('｜')}</div><div class="bar"><i style="width:${Math.min(100,avg/5*100)}%"></i></div><div class="details">參考：從 39 號中固定任取 5 號，與當期 5 個獎號的期望交集為 25/39 ≈ 0.641 個。若長期回測沒有明顯高於此基準，不應把模型分數解讀成具預測力。若已啟用命盤權重，回測也會套用同一份個人命盤特徵；這仍不能證明命理與開獎有因果關係。</div>`};
 loadLocal();
+loadPersonal();
 syncLatestOfficial();
 </script>
 </body>
